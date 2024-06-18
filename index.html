@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Salon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Men's Salon</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#booking">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Men's Salon</h2>
+        <p>Experience the best grooming services for men.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Haircut</h3>
+            <p>Precision haircuts tailored to your style.</p>
+        </div>
+        <div class="service">
+            <h3>Shaving</h3>
+            <p>Classic and modern shaving techniques.</p>
+        </div>
+        <div class="service">
+            <h3>Facial</h3>
+            <p>Refreshing facials for a healthy skin.</p>
+        </div>
+    </section>
+
+    <section id="booking">
+        <h2>Book an Appointment</h2>
+        <form id="booking-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">Service:</label>
+            <select id="service" name="service" required>
+                <option value="haircut">Haircut</option>
+                <option value="shaving">Shaving</option>
+                <option value="facial">Facial</option>
+            </select>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@menssalon.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Men's Salon</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
